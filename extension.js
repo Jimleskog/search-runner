@@ -22,8 +22,6 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 		searchTranslation();
 
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from Search Runner!');
 	});
 
 	context.subscriptions.push(disposable);

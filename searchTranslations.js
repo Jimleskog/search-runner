@@ -23,12 +23,18 @@ async function searchTranslation() {
             vscode.window.showErrorMessage(`Document does not exist: ${documentName}`);
             return;
         }
+
+        // Use editor.action.selectWord to expand the selection to the entire word
+
+
         // Open the Dart script in the editor
         const document = await vscode.workspace.openTextDocument(dartScriptPath);
         await vscode.commands.executeCommand('editor.action.addSelectionToNextFindMatch');
         await vscode.window.showTextDocument(document);
         // Move to the first occurrence in the opened file
         await vscode.commands.executeCommand('editor.action.nextMatchFindAction');
+
+
 
 
 
