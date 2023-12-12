@@ -2,6 +2,8 @@
   "name": "search-runner",
   "displayName": "Search Runner",
   "description": "Let you search a document in vscode as a fast command",
+  "publisher": "jimleskog",
+  "icon": "images/search-runner.png",
   "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
