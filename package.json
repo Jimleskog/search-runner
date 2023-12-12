@@ -4,7 +4,7 @@
   "description": "Let you search a document in vscode as a fast command",
   "publisher": "jimleskog",
   "icon": "images/search-runner.png",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
   },

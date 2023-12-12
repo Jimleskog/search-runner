@@ -4,11 +4,9 @@ This is the README for the "Search Runner" extension for Visual Studio Code. Thi
 
 ## Features
 
-The Search Runner extension allows you to quickly search a specified document in the settings.
+The Search Runner extension allows you to quickly search a document specified in the settings.
 
 - **Search Translation**: This command allows you to search in specified documents. For example if you have a large document with all translations then you want to convenient search that document with one click.
-
-![Search Translation](images/search-runner.png)
 
 ## Requirements
 
@@ -23,7 +21,7 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-There are no known issues at the moment. If you encounter any problems, please open an issue on the [GitHub repository](https://github.com/yourusername/search-runner).
+There are no known issues at the moment. If you encounter any problems, please open an issue on the [GitHub repository](https://github.com/Jimleskog/search-runner).
 
 ## Release Notes
 
