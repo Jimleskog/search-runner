@@ -1,5 +1,6 @@
 const vscode = require('vscode');
 const path = require('path');
+const fs = require('fs');
 
 async function searchTranslation() {
     const editor = vscode.window.activeTextEditor;
@@ -17,6 +18,11 @@ async function searchTranslation() {
     const dartScriptPath = path.join(vscode.workspace.workspaceFolders ? vscode.workspace.workspaceFolders[0].uri.fsPath : '', documentName);
 
     try {
+
+        if (!fs.existsSync(dartScriptPath)) {
+            vscode.window.showErrorMessage(`Document does not exist: ${documentName}`);
+            return;
+        }
         // Open the Dart script in the editor
         const document = await vscode.workspace.openTextDocument(dartScriptPath);
         await vscode.commands.executeCommand('editor.action.addSelectionToNextFindMatch');
