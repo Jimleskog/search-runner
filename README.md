@@ -1,12 +1,12 @@
 # Search Runner Extension for VS Code
 
-This is the README for the "Search Runner" extension for Visual Studio Code. This extension provides a convenient way to search for translations in your codebase.
+This is the README for the "Search Runner" extension for Visual Studio Code. This extension provides a convenient way to search in a specified document with a command. 
 
 ## Features
 
 The Search Runner extension allows you to quickly search a specified document in the settings.
 
-- **Search Translation**: This command allows you to search in specified documents. FOr example if you have a large document with all translations then you want to convenient search that document with one click.
+- **Search Translation**: This command allows you to search in specified documents. For example if you have a large document with all translations then you want to convenient search that document with one click.
 
 ![Search Translation](images/search-runner.png)
 

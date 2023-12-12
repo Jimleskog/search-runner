@@ -14,7 +14,7 @@ async function searchTranslation() {
         return;
     }
 
-    const dartScriptPath = path.join(vscode.workspace.rootPath || '', documentName);
+    const dartScriptPath = path.join(vscode.workspace.workspaceFolders ? vscode.workspace.workspaceFolders[0].uri.fsPath : '', documentName);
 
     try {
         // Open the Dart script in the editor
